@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(codepen-logo-pattern.webp);
+}
+
+.container {
+    display: flex;
+}
+
+.container .side-bar {
+    background: rgb(30, 31, 38);
+    width: 270px;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.container .side-bar ul img {
+    margin-bottom: -30px;
+    filter: invert(1);
+}
+
+.container .side-bar ul {
+    margin-left: 10px;
+
+}
+
+.container .side-bar ul li {
+    list-style: none;
+    margin: 15px 0 0 10px;
+}
+
+.container .side-bar ul li h3 {
+    color: #b9b6b6;
+}
+
+.container .side-bar ul li input {
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container .side-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.container .side-bar ul li a span {
+    background: gold;
+    color: #111;
+    margin-left: 5px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-weight: 650;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper ul {
+    display: flex;
+    margin: 5px 5px;
+}
+
+.upper ul li {
+    list-style: none;
+    margin: 0 8px 0 0;
+}
+
+.upper ul li .search-bar {
+    background: #333;
+    height: 45px;
+    width: 990px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.upper ul li .search-bar input::placeholder {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.upper ul li .search-bar input {
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.upper ul li .search-bar svg {
+    margin: 13px;
+    fill: #fff;
+}
+
+.upper ul li .button input {
+    padding: 14px 17px;
+    background: rgb(71, 207, 115);
+    border: transparent;
+    border-radius: 5px;
+}
+
+#Twitter {
+    background-color: rgb(29, 161, 242);
+}
+
+#GitHub {
+    background: rgb(87, 96, 106);
+}
+
+#Facebook {
+    background-color: rgb(3, 108, 229);
+}
+
+.middle-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container .container-1 .middle-bar .log-in .logo img {
+    filter: invert(0.5);
+    width: 200px;
+    margin: 0 69px 0 0;
+}
+
+
+
+.middle-bar .log-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.middle-bar .log-in ul li {
+
+    width: 200px;
+}
+
+.other-social ul {
+    padding: 20px 40px;
+    position: absolute;
+    top: 30%;
+    right: 185px;
+
+}
+
+.other-social ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.other-social ul li .social {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 0 6px 0 0;
+    width: 230px;
+    height: 50px;
+}
+
+.other-social ul li .social svg {
+    fill: #fff;
+    margin: 15px;
+    width: 25px;
+}
+
+.other-social ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.other-social ul li .social a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+svg {
+    width: 20px;
+}
+
+img {
+    max-width: 160px;
+}
+
+.log-in {
+    display: flex;
+
+}
+
+.log-in h4 {
+    font-size: 55px;
+    margin: 0 33px 0 0px;
+    color: #fff;
+}
+
+.log-in .log-input {
+    border-right: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 0 0;
+    width: 500px;
+}
+
+.middle-bar .log-input a {
+    color: rgb(99, 168, 175);
+    margin: 0 0 0 50px;
+    text-decoration: none;
+}
+
+.middle-bar .log-input ul {
+    padding: 0 40px 0 0;
+    margin: 0 0 0 30px;
+}
+
+.middle-bar .log-input ul li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.middle-bar .log-input ul li input {
+    width: 300px;
+    height: 42px;
+    border: none;
+    outline: none;
+    background: #f1f1f1;
+}
+
+.middle-bar .log-input ul li input[type="button"] {
+    background: rgb(71, 207, 115);
+    border-radius: 5px;
+    font-size: 15px;
+    color: #111;
+}
+
+
+.middle-bar .log-input ul li span {
+    color: #fff;
+}
+
+.or {
+    position: absolute;
+    top: 53%;
+    left: 58.5%;
+    border: 2px solid #fff;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(27, 28, 35);
+}
+
+.or span {
+    color: #f1f1f1;
+}
